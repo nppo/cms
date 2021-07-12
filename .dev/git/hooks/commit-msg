@@ -1,0 +1,16 @@
+#!/bin/bash
+FILE=$1
+MESSAGE=$(cat $FILE)
+
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+POTENTIAL_STORY=$(git rev-parse --abbrev-ref HEAD | grep -Eo '^(\w+/)?(\w+[-_])?[0-9]+' | grep -Eo '(\w+[-])?[0-9]+')
+if [[ "$BRANCH" != *"/"* || "$POTENTIAL_STORY" == "" ]]; then
+    echo "COMMIT FAILED: Commit being done on none story-related branch ($BRANCH)"
+    exit 1;
+fi
+
+if [[ ! ${#MESSAGE} -gt 20 ]]; then
+    echo "COMMIT FAILED: Provided commit message is shorter than 20 characters, make sure your commit message is useful ($MESSAGE)"
+    exit 1;
+fi

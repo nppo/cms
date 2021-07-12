@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  node:
+    build:
+      context: ../../
+      dockerfile: ./.dev/docker/images/node/Dockerfile
+      args:
+        NODE_VERSION: 14
+    volumes:
+      - ${APP_PATH-../../}:/var/www/html
+    ports:
+      - "1337:1337"
+    networks:
+      - application
+    command: ["npm install && npm run develop"]
+
+networks:
+  application:

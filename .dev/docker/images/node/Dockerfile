@@ -1,0 +1,12 @@
+ARG NODE_VERSION
+
+FROM node:${NODE_VERSION}
+
+ARG NODE_PROJECT_FOLDER=
+
+WORKDIR /var/www/html/${NODE_PROJECT_FOLDER}
+USER node
+
+COPY . /var/www/html
+
+ENTRYPOINT ["bash", "-c"]
