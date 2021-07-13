@@ -1,8 +1,8 @@
 # Makefile
 include ./.dev/docker/makefile
 
-SHELL := /bin/bash
-.PHONY: list
+SHELL = /bin/bash
+.PHONY = list
 .DEFAULT_GOAL = welcome
 .RECIPEPREFIX = >
 
