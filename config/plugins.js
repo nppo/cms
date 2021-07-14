@@ -10,4 +10,8 @@ module.exports = ({ env }) => ({
       defaultFrom: env('MAIL_FROM_ADDRESS'),
     },
   },
+  sentry: {
+    dsn: env('SENTRY_DSN'),
+    sendMetadata: true,
+  },
 });
