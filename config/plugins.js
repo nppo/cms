@@ -13,5 +13,8 @@ module.exports = ({ env }) => ({
   sentry: {
     dsn: env('SENTRY_DSN'),
     sendMetadata: true,
+    init: {
+      environment: env('NODE_ENV')
+    }
   },
 });
