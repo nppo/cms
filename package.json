@@ -2,7 +2,6 @@
   "name": "surapp-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,12 +24,6 @@
     "strapi-plugin-users-permissions": "3.6.5",
     "strapi-provider-email-mailgun": "^3.6.5",
     "strapi-utils": "3.6.5"
-  },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "909b8a56-236e-4427-ab0b-cec082c8dfeb"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
