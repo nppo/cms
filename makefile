@@ -18,3 +18,12 @@ env-local:
 git-init:
 	cp .dev/git/hooks/prepare-commit-msg .git/hooks/prepare-commit-msg
 	cp .dev/git/hooks/commit-msg .git/hooks/commit-msg
+
+app-user-seed:
+	docker-compose -f .dev/docker/docker-compose.yml -f .dev/docker/docker-compose.override.yml exec node ./node_modules/.bin/strapi admin:reset-user-password --email=admin@way2web.nl --password=Way2web123!
+
+app-config-save:
+	docker-compose -f .dev/docker/docker-compose.yml -f .dev/docker/docker-compose.override.yml exec node ./node_modules/.bin/strapi config:dump -p -f app/config.json
+
+app-config-load:
+	docker-compose -f .dev/docker/docker-compose.yml -f .dev/docker/docker-compose.override.yml exec node ./node_modules/.bin/strapi config:restore -f app/config.json
