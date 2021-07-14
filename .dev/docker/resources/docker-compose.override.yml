@@ -28,5 +28,15 @@ services:
       - PMA_PASSWORD=password
       - PMA_HOSTS=database
 
+
+  node:
+    networks:
+    - dockerhero
+
 volumes:
   application-db:
+
+networks:
+  dockerhero:
+    external:
+      name: dockerhero_dockerhero
