@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nppo_tags",
+  "info": {
+    "name": "Tag",
+    "icon": "tag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "minLength": 3,
+      "required": true
+    }
+  }
+}
