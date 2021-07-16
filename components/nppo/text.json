@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_nppo_texts",
+  "info": {
+    "name": "Text",
+    "icon": "pencil-alt"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
