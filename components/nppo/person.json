@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_nppo_people",
+  "info": {
+    "name": "Person",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "identifier": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

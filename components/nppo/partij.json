@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_nppo_partijs",
+  "info": {
+    "name": "Party",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "identifier": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

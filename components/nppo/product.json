@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_nppo_products",
+  "info": {
+    "name": "Product",
+    "icon": "copy"
+  },
+  "options": {},
+  "attributes": {
+    "identifier": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

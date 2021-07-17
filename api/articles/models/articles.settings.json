@@ -32,7 +32,11 @@
       "components": [
         "nppo.text",
         "nppo.image",
-        "nppo.slider"
+        "nppo.slider",
+        "nppo.project",
+        "nppo.product",
+        "nppo.partij",
+        "nppo.person"
       ]
     }
   }
