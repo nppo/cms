@@ -7,8 +7,8 @@
     "tag": ""
   },
   {
-    "key": "plugin_content_manager_configuration_components::nppo.partij",
-    "value": "{\"uid\":\"nppo.partij\",\"settings\":{\"bulkable\":true,\"filterable\":true,\"searchable\":true,\"pageSize\":10,\"mainField\":\"identifier\",\"defaultSortBy\":\"identifier\",\"defaultSortOrder\":\"ASC\"},\"metadatas\":{\"id\":{\"edit\":{},\"list\":{\"label\":\"Id\",\"searchable\":false,\"sortable\":false}},\"identifier\":{\"edit\":{\"label\":\"Identifier\",\"description\":\"\",\"placeholder\":\"\",\"visible\":true,\"editable\":true},\"list\":{\"label\":\"Identifier\",\"searchable\":true,\"sortable\":true}}},\"layouts\":{\"list\":[\"id\",\"identifier\"],\"edit\":[[{\"name\":\"identifier\",\"size\":6}]],\"editRelations\":[]},\"isComponent\":true}",
+    "key": "plugin_content_manager_configuration_components::nppo.party",
+    "value": "{\"uid\":\"nppo.party\",\"settings\":{\"bulkable\":true,\"filterable\":true,\"searchable\":true,\"pageSize\":10,\"mainField\":\"identifier\",\"defaultSortBy\":\"identifier\",\"defaultSortOrder\":\"ASC\"},\"metadatas\":{\"id\":{\"edit\":{},\"list\":{\"label\":\"Id\",\"searchable\":false,\"sortable\":false}},\"identifier\":{\"edit\":{\"label\":\"Identifier\",\"description\":\"\",\"placeholder\":\"\",\"visible\":true,\"editable\":true},\"list\":{\"label\":\"Identifier\",\"searchable\":true,\"sortable\":true}}},\"layouts\":{\"list\":[\"id\",\"identifier\"],\"edit\":[[{\"name\":\"identifier\",\"size\":6}]],\"editRelations\":[]},\"isComponent\":true}",
     "type": "object",
     "environment": "",
     "tag": ""
