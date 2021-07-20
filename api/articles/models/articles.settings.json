@@ -21,6 +21,23 @@
       "type": "component",
       "repeatable": true,
       "component": "nppo.tag"
+    },
+    "themes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nppo.tag"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "nppo.text",
+        "nppo.image",
+        "nppo.slider",
+        "nppo.project",
+        "nppo.product",
+        "nppo.party",
+        "nppo.person"
+      ]
     }
   }
 }
