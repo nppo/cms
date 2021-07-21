@@ -54,6 +54,16 @@
       "maxLength": 255,
       "required": true,
       "minLength": 10
+    },
+    "header": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
