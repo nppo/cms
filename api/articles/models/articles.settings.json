@@ -64,6 +64,16 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "related_products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nppo.product"
+    },
+    "related_projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nppo.project"
     }
   }
 }
